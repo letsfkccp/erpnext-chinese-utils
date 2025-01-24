@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include chinese_utils *.css
+recursive-include chinese_utils *.csv
+recursive-include chinese_utils *.html
+recursive-include chinese_utils *.ico
+recursive-include chinese_utils *.js
+recursive-include chinese_utils *.json
+recursive-include chinese_utils *.md
+recursive-include chinese_utils *.png
+recursive-include chinese_utils *.py
+recursive-include chinese_utils *.svg
+recursive-include chinese_utils *.txt
+recursive-exclude chinese_utils *.pyc
