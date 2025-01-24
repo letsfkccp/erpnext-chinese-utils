@@ -1,5 +1,6 @@
 import frappe
 
+@frappe.whitelist()
 def money_in_chinese(number):
     chinese_nums = {
         '0': '零',
